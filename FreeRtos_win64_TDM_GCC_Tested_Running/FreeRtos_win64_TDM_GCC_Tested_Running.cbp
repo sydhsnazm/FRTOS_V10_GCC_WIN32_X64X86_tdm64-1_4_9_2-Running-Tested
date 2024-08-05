@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FreeRtos_win64_TDM_GCC_Tested_Running" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/FreeRtos_win64_TDM_GCC_Tested_Running" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/FreeRtos_win64_TDM_GCC_Tested_Running" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="E:/shs/data/codeblocks/GCC/tdm-gcc-x64-492/FRTOS/FreeRtos_win64_TDM_GCC_Tested_Running/" />
+			<Add directory="E:/shs/data/codeblocks/GCC/tdm-gcc-x64-492/FRTOS/FreeRtos_win64_TDM_GCC_Tested_Running/ALL" />
+		</Compiler>
+		<Linker>
+			<Add library="E:/shs/data/codeblocks/GCC/tdm-gcc-x64-492/FRTOS/FreeRtos_win64_TDM_GCC_Tested_Running/ALL/WinMM.Lib" />
+			<Add directory="E:/shs/data/codeblocks/GCC/tdm-gcc-x64-492/FRTOS/FreeRtos_win64_TDM_GCC_Tested_Running/" />
+			<Add directory="E:/shs/data/codeblocks/GCC/tdm-gcc-x64-492/FRTOS/FreeRtos_win64_TDM_GCC_Tested_Running/ALL" />
+		</Linker>
+		<Unit filename="ALL/FreeRTOS.h" />
+		<Unit filename="ALL/FreeRTOSConfig.h" />
+		<Unit filename="ALL/aws_demo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ALL/aws_run-time-stats-utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ALL/debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ALL/debug.h" />
+		<Unit filename="ALL/deprecated_definitions.h" />
+		<Unit filename="ALL/heap_3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ALL/list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ALL/list.h" />
+		<Unit filename="ALL/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ALL/mpu_wrappers.h" />
+		<Unit filename="ALL/port.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ALL/portable.h" />
+		<Unit filename="ALL/portmacro.h" />
+		<Unit filename="ALL/projdefs.h" />
+		<Unit filename="ALL/queue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ALL/queue.h" />
+		<Unit filename="ALL/supporting_functions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ALL/supporting_functions.h" />
+		<Unit filename="ALL/task.h" />
+		<Unit filename="ALL/tasks.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ALL/timers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ALL/timers.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
